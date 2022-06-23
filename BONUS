@@ -1,0 +1,15 @@
+*************************************
+BONUS TASK
+*************************************
+
+Update your calculator to handle the case in which the user entered an unrecognized operator, e.g. '?'.
+
+So far, your calculator source code checks the condition that the operator is equal to '+', '-', '*', '/'.
+
+If the operator is not equal to any of those characters, then your software should ask the user to repeat their input entry. This means that your source code should issue a new call to the 'get_input' function if the user input was invalid.
+
+-- Try to add this functionality to your C and/or Python calculator.
+-- Run some tests to see if it works.
+
+
+**************************************

@@ -42,10 +42,19 @@ void calculate() {
 
 
 
+// USER INPUT FUNCTION
+//	- NULL: input parameters
+//	- return NULL (a.k.a nothing)
+void get_input() {
+	printf("Enter x1  +/-*  x2: ");
+	scanf("%d %c %d", &x1, &operator, &x2);
+}
+
+
+
 // MAIN FUNCTION
 int main() {
-	printf("Enter x1 +/-* x2: ");
-	scanf("%d %c %d", &x1, &operator, &x2);
+	get_input();
 
 	calculate();
 
